@@ -8,13 +8,13 @@ let minus = document.getElementById('quantity-down')
 add.addEventListener("click", function(){
     if (quantity >= 0)
     quantity += 1;
-    totalQuantity.innerHTML = "Quantity = " + quantity
+    totalQuantity.innerHTML = "Quantity: " + quantity
 })
 
 minus.addEventListener("click", function(){
     if (quantity >= 1)
     quantity -= 1;
-    totalQuantity.innerHTML = "Quantity = " + quantity
+    totalQuantity.innerHTML = "Quantity: " + quantity
 })
 
 let remove = document.querySelector(".remove")
